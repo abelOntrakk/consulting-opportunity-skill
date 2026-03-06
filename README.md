@@ -1,4 +1,4 @@
-# analyze-company
+# Consulting Opportunity Skill
 
 A Claude Code skill that analyzes company careers pages to identify consulting opportunities for agent-based automation.
 
@@ -14,12 +14,7 @@ Give it a company's careers URL and it will:
 ## Install
 
 ```bash
-claude skill install /path/to/analyze-company-skill
-```
-
-Or from skills.sh (once published):
-```bash
-claude skill install analyze-company
+/install consulting-opportunity
 ```
 
 ## Usage
@@ -27,7 +22,7 @@ claude skill install analyze-company
 From any directory with Claude Code:
 
 ```
-/analyze-company https://jobs.ashbyhq.com/somecompany
+/consulting-opportunity https://jobs.ashbyhq.com/somecompany
 ```
 
 ## Prerequisites
@@ -40,7 +35,7 @@ Playwright and Chromium are installed automatically on first run.
 ## Structure
 
 ```
-analyze-company-skill/
+consulting-opportunity-skill/
 ├── SKILL.md              # Skill definition and workflow
 ├── signals.md            # Automation signal detection reference
 ├── templates/
