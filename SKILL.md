@@ -19,10 +19,11 @@ The user has provided a careers URL: `$ARGUMENTS`
 Use WebSearch to find:
 - What the company does, who they serve
 - Size, funding stage, growth trajectory
+- **Key financials:** Customer count, ARR/revenue figures, growth rates (MoM/YoY), funding rounds and amounts, key investors
 - Recent news (acquisitions, expansions, new products)
 - Business model and key operational challenges
 
-This context is essential for framing relevant opportunities.
+Include specific numbers in the Company Context section — customer count, ARR, growth rates, team size, number of open roles. These figures are critical for assessing fit and framing opportunities.
 
 ### Step 2: Scrape the Careers Page
 
@@ -80,12 +81,12 @@ For each opportunity, frame it as a **quick-win engagement** (2-4 weeks):
 - **"The one thing it solves"** — a single, specific pain point
 - **What we'd build** — concrete agent/automation, not a vague platform
 - **Why now** — reference specific language from job postings
-- **Honest caveat** — what could make this not work
+- **Honest caveat** — be specific about what could make this not work: existing tools that solve this (name them), whether the team could build it themselves, market alternatives, timing risks. Don't just flag risk — explain why it might not land.
 - **Entry point** — who to pitch to
 - **Scope** — 2-4 week engagement with week-by-week breakdown
 - **Dependencies** — what access/APIs/data we'd need
 
-Include an **Overall Assessment** section with honest fit rating (Strong/Medium/Weak) and reasoning.
+Include an **Overall Assessment** section with honest fit rating (Strong/Medium/Weak) and reasoning. For weak fits, include a **"When this might become a fit"** section with a specific re-check timeline (e.g., "worth re-checking in 6-12 months when they scale to X people and start hiring operations roles").
 
 ### Step 6: Request Feedback
 
